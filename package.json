@@ -1,0 +1,20 @@
+{
+  "name": "goombas",
+  "version": "0.0.1",
+  "description":
+    "",
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "private": false,
+  "esy": { "build": "dune build bin/main.exe" },
+  "scripts": { "doc": "esy dune build @doc" },
+  "dependencies": {
+    "@opam/dune": "*",
+    "ocaml": "~4.7.0"
+  },
+  "devDependencies": {
+    "@opam/merlin": "*",
+    "ocaml": "~4.7.0"
+  }
+}

@@ -10,11 +10,11 @@
   "esy": { "build": "dune build bin/main.exe" },
   "scripts": { "doc": "esy dune build @doc" },
   "dependencies": {
-    "@opam/dune": "*",
-    "ocaml": "~4.7.0"
+    "@opam/dune": "~1.0.0",
+    "ocaml": "~4.6.0"
   },
   "devDependencies": {
     "@opam/merlin": "*",
-    "ocaml": "~4.7.0"
+    "ocaml": "~4.6.0"
   }
 }
